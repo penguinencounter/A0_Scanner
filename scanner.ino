@@ -1,4 +1,4 @@
-#define BRIGHTNESS = 128
+#define BRIGHTNESS 128
 
 void setup() {
     Serial.begin(9600);
