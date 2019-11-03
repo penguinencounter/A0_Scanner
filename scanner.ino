@@ -6,6 +6,7 @@ void setup() {
 }
 void loop() {
     int reading = analogRead(A0);
-    Serial.write(reading);
+    Serial.print(reading);
+    Serial.print('\n');
     delay(1000);
 }
