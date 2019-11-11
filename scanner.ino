@@ -9,7 +9,7 @@ void setup() {
         while (!Serial) {
             ; // wait for serial port to connect. Needed for native USB port only
         }
-        Serial.print('Serial port connected.')
+        Serial.print("Serial port connected.")
     } else {
         digitalWrite(13, LOW);
     }
